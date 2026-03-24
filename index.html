@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de CSS</title>
+    <style>
+        /* Seletor universal */
+        * {
+            font-family: Arial;
+        }
+        /* Seletor de elemento */
+        p {
+            color: blue;
+        }
+        /* Seletor de classe */
+        .destaque {
+            color: green;
+            font-weight: bold;
+        }
+        /* Seletor de ID */
+        #titulo {
+            color: red;
+        }
+        /* Seletor descendente */
+        div p {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Exemplo de CSS</h1>
+    <p>Este é um parágrafo normal.</p>
+    <p class="destaque">Este parágrafo usa classe.</p>
+    <div>
+        <p>Este parágrafo está dentro de uma div (seletor descendente).</p>
+    </div>
+</body>
+</html>
